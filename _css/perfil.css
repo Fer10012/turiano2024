@@ -1,0 +1,26 @@
+.botao{
+    position: absolute;
+    top: 50%;
+     left: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 1px blue;
+    border-radius: 20px;
+    transition-duration: 1s;
+    
+  }
+  .botao:hover{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    transform: scale(1.5)
+    
+  }
+  footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #aecef7;
+    color: #141313;
+    box-sizing: border-box;
+}
